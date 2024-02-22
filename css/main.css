@@ -1,0 +1,210 @@
+* {
+
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   box-sizing: border-box;
+   
+
+
+}
+
+.clr{
+
+    clear: both;
+}
+
+#home{
+
+   background-image: url('../images/header.png');
+   background-size: cover;
+   background-position: center center;
+   height: 100vh;
+
+}
+
+body{
+
+    font-family: 'Rubik', sans-serif;
+}
+
+#home .navbar{
+
+     background-color: rgba(0, 0, 0, 0.488);
+     
+     width: 100%;
+    
+    padding: 10px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#home .navbar .nav-logo{
+
+    
+    float: left;
+}
+
+#home .navbar .nav-logo img{
+
+    width: 60px;
+}
+
+#home .navbar .nav-menu{
+
+    
+    float: right;
+}
+
+#home .navbar .nav-menu li{
+
+    display: inline-block;
+
+}
+
+#home .navbar .nav-menu li a{
+
+    padding-inline: 30px;
+    color: white;
+}
+
+
+
+#home .caption{
+
+    text-align: center;
+    color: #fff;
+    padding:60px ;
+}
+
+
+
+
+#home .caption h1{
+
+    padding-block: 20px;
+}
+
+#home .caption p{
+
+    padding-block: 20px;
+}
+
+
+#home .caption .btn1 , #home .caption .btn2{
+
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+}
+
+#home .caption .btn1{
+
+    background-color: #C1AB84;
+}
+
+#about{
+
+    
+    padding: 50px 80px;
+
+}
+
+
+#about .about-img{
+    width: 50%;
+
+    
+    float: left;
+}
+
+#about .about-img img{
+
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+
+#about .about-info{
+
+    width: 50%;
+    
+    float: left;
+
+    padding-inline: 40px;
+    
+}
+
+#about .about-info h2{
+    padding: 20px 0;
+}
+
+
+
+#about .about-info h3{
+
+    padding:10px 0;
+    
+}
+
+#about .about-info p{
+
+    padding: 10px 0;
+    line-height: 25px;
+}
+
+#about .about-info button{
+
+    background-color: transparent;
+    padding: 15px 20px;
+    border: 3px solid #000;
+}
+
+
+#overlay{
+
+    background-image: url('../images/blog-3.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+
+#blog{
+
+    text-align: center;
+    padding: 40px 60px;
+
+    
+}
+
+#blog h2{
+
+    padding: 30px;
+}
+
+#blog .blog-item{
+
+    width: 33.33%;
+    float: left;
+    padding: 40px;
+}
+
+#blog .blog-item img{
+
+    width: 100%;
+}
+
+#blog .blog-item h3{
+
+    padding-block: 20px;
+}
+
+
+
+
+
+
